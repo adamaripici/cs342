@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="ThreeCardLogicTest" time="0.011" tests="32" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/adapici/Downloads/JavaFX_MavenTemplate 2/target/test-classes:/Users/adapici/Downloads/JavaFX_MavenTemplate 2/target/classes:/Users/adapici/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/Users/adapici/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/Users/adapici/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/adapici/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/adapici/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/Users/adapici/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/Users/adapici/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/Users/adapici/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/Users/adapici/.m2/repository/org/openjfx/javafx-controls/12.0.1/javafx-controls-12.0.1.jar:/Users/adapici/.m2/repository/org/openjfx/javafx-controls/12.0.1/javafx-controls-12.0.1-mac.jar:/Users/adapici/.m2/repository/org/openjfx/javafx-graphics/12.0.1/javafx-graphics-12.0.1.jar:/Users/adapici/.m2/repository/org/openjfx/javafx-graphics/12.0.1/javafx-graphics-12.0.1-mac.jar:/Users/adapici/.m2/repository/org/openjfx/javafx-base/12.0.1/javafx-base-12.0.1.jar:/Users/adapici/.m2/repository/org/openjfx/javafx-base/12.0.1/javafx-base-12.0.1-mac.jar:/Users/adapici/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12.jar:/Users/adapici/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12-mac.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/adapici/Downloads/JavaFX_MavenTemplate 2/target/surefire/surefirebooter16839194574427568501.jar /Users/adapici/Downloads/JavaFX_MavenTemplate 2/target/surefire 2022-10-30T00-44-56_309-jvmRun1 surefire9848786409435801215tmp surefire_013716648098289695143tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/adapici/Downloads/JavaFX_MavenTemplate 2/target/test-classes:/Users/adapici/Downloads/JavaFX_MavenTemplate 2/target/classes:/Users/adapici/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/Users/adapici/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/Users/adapici/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/adapici/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/adapici/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/Users/adapici/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/Users/adapici/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/Users/adapici/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:/Users/adapici/.m2/repository/org/openjfx/javafx-controls/12.0.1/javafx-controls-12.0.1.jar:/Users/adapici/.m2/repository/org/openjfx/javafx-controls/12.0.1/javafx-controls-12.0.1-mac.jar:/Users/adapici/.m2/repository/org/openjfx/javafx-graphics/12.0.1/javafx-graphics-12.0.1.jar:/Users/adapici/.m2/repository/org/openjfx/javafx-graphics/12.0.1/javafx-graphics-12.0.1-mac.jar:/Users/adapici/.m2/repository/org/openjfx/javafx-base/12.0.1/javafx-base-12.0.1.jar:/Users/adapici/.m2/repository/org/openjfx/javafx-base/12.0.1/javafx-base-12.0.1-mac.jar:/Users/adapici/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12.jar:/Users/adapici/.m2/repository/org/openjfx/javafx-fxml/12/javafx-fxml-12-mac.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/adapici"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/18.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/adapici/Downloads/JavaFX_MavenTemplate 2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/adapici/Downloads/JavaFX_MavenTemplate 2/target/surefire/surefirebooter16839194574427568501.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="18.0.2+0"/>
+    <property name="user.name" value="adapici"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.6.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/adapici/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/ql/1pq6x7sd72s5by8cmz9pg3kc0000gn/T/"/>
+    <property name="java.version" value="18.0.2"/>
+    <property name="user.dir" value="/Users/adapici/Downloads/JavaFX_MavenTemplate 2"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/adapici/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="18.0.2+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="ThreeOfAKindTest2" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="StraightTest" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="StraightTest2" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="StraightTest3" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="testingPairPlusBet" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="evalPPWinningsTest" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="HighCardTest" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="HighCardTest2" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="evalPPWinningsTest2" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="evalPPWinningsTest3" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="evalPPWinningsTest4" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="evalPPWinningsTest5" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="evalPPWinningsTest6" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="testingSetTotalWinnings2" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="ThreeOfAKindTest" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="evalCompareHandsTest2" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="evalCompareHandsTest3" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="evalCompareHandsTest4" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="evalCompareHandsTest5" classname="ThreeCardLogicTest" time="0.001"/>
+  <testcase name="evalCompareHandsTest6" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="PairTest2" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="PairTest3" classname="ThreeCardLogicTest" time="0.001"/>
+  <testcase name="PairTest" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="testingAnteBet" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="StraightFlushTest2" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="StraightFlushTest3" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="evalCompareHandsTest" classname="ThreeCardLogicTest" time="0.001"/>
+  <testcase name="FlushTest2" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="FlushTest" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="testingPlayBet" classname="ThreeCardLogicTest" time="0.001"/>
+  <testcase name="StraightFlushTest" classname="ThreeCardLogicTest" time="0"/>
+  <testcase name="testingSetTotalWinnings" classname="ThreeCardLogicTest" time="0"/>
+</testsuite>
